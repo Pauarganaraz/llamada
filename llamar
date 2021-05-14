@@ -1,0 +1,31 @@
+Algoritmo botRespuestasLlamada
+	
+	definir  opcionFamiliar , opcionAmistad, opcionTrabajo , opcionPublicidad Como Entero;
+	
+	opciones = 0;
+	opcionFamiliar = 1;
+	opcionAmistad = 2;
+	opcionTrabajo = 3;
+	opcionPublicidad = 4;
+	
+	
+	definir opcionDeseada como Texto;
+	opcionDeseada = " Seleccione Opci�n"
+	
+	escribir "ingrese la opci�n deseada" 
+	
+	escribir " Elija la Opcion deseada 1 Familiar , 2 amistad , 3 trabajo , 4 pulicidad" 
+	leer seleccione opcionDeseada;
+
+	Segun opcionAmistad, opcionFamiliar, opcionPublicidad, opcionTrabajo Hacer
+		1:
+			escribir "deje su mensaje, despues del piiii muchas gracias"
+		2:
+			Escribir "deje su mensaje luego del piii y llame m�s tarde"
+		3:
+			escribir  "n�mero equivocado"
+		De Otro Modo:
+			Escribir  ":("
+	Fin Segun
+	
+FinAlgoritmo
